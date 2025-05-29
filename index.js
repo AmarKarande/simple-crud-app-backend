@@ -20,7 +20,7 @@ app.get("/", (req, res) => {
 
 mongoose
   .connect(
-    "mongodb+srv://admin:Admin%401234@backenddb.yq4tnbc.mongodb.net/Crud_Api?retryWrites=true&w=majority&appName=BackendDB"
+    "/Mongodb url string"
   )
   .then(() => {
     console.log("Connected to database!");
